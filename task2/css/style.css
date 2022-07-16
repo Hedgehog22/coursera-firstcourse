@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  #header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+  }
+
+  
+  .navbar-brand {
+    padding: 15px;
+
+  }
+  
+  .navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #7c613e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0px;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  
+  #nav-list {
+    margin-top: 10px;
+    list-style: none;
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+ 
+  
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -60px;
+  }
+
+
+  
+
+ .main__h{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.7em;
+
+  }
+
+.h-wrapp{
+    width: 100%;
+    height: 65px;
+    border: none;
+}
+
+.h{
+    position: absolute;
+    right: 0;
+    padding: 15px;
+    border: 1px solid black;
+    width: 25%;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: #f7c5a8;
+    color: #3d1202;
+}
+.main{
+  position: relative;
+  border: 1px solid black;
+  background-color: #ffeadb;
+  color: #581f0a;
+  width: 90%;
+  height: auto;
+  font-family: Helvetica;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+p{
+ margin: 15px;
+ font-size: 1.2em;
+}
+
+
+#header-nav{
+    background-color: #f7c5a8;
+    border-radius: 0;
+    border: 0;
+}
+
+
+  @media (min-width: 992px){
+.first, .sec, .third{
+    width: 33.33%;
+    float: left;
+}
+
+  }
+
+@media (min-width:768px) and (max-width:991.5px){
+    .first, .sec{
+        width:50%;
+        float: left;
+        margin-bottom: 50px;
+    }
+    .third{
+      width: 100%;
+      float: left;
+    }
+    
+    #main{
+        width: 95%;
+    }
+ 
+}
+
+@media (max-width:767.5px){
+    .first, .sec, .third{
+      margin-bottom: 20px;
+    }
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+    }
+    .navbar-brand h1 { 
+      padding-top: 10px;
+      font-size: 5vw; 
+    }
+  
+  
+    #collapsable-nav a { 
+      font-size: 1.2em;
+    }
+    #collapsable-nav a span {
+      font-size: 1em;
+      margin-right: 5px;
+    }
+}
